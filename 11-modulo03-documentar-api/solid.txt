@@ -1,0 +1,17 @@
+#solid
+#desenvolvido por Uncle BOB
+
+s - srp(single responsability principle) - um modulo ele deve ter
+apenas um unica razao para mudar
+d - dependency inversion principle - o codigo que implementa uma politica de alto nivel
+ele nao pode depender de uma politica de baixo nivel
+ou seja
+o nosso service nao pode reconhecer qual o tipo do nosso repositorio
+
+l - lsp - liskov substituion principle -
+service - camada de alto nivel
+rotas - camada de baixo nivel
+
+controllers- ficam com o cargo de receber e enviar sa respostas 
+
+singleton - padrao de projecto - criar apenas uma instancia de uma classe , que vai ser a global

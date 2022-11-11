@@ -1,0 +1,20 @@
+node e uma plataforma codigo aberto que executa o js do lado do servidor
+
+criador - Ryan dahl 
+ano - 2009
+
+
+api rest
+-conj de requisitos que determina como um app vai se comunicar com o outro
+-dentro de uma api eh import que tenha uma documentacao
+
+rest
+-eh um modelo de arquitectura
+
+regras de rest
+-client server - separar as responsabilidades
+-statless - o server nao armazena nenhum dado
+cache - deve ter cache
+interface unifirme - identificacao dos recursos, representacao dos recursos, mensagens auto-descritivas, hateas(retornar links)
+-camdas - a app deve permitir camadas
+codigo sob demanda - 
